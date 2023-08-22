@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { HiOutlineHeart } from 'react-icons/hi';
-// import {
-//   MdThumbDownOffAlt,
-//   MdSentimentNeutral,
-//   MdOutlineSummarize,
-//   MdPercent,
-// } from 'react-icons/md';
+import { HiOutlineHeart } from 'react-icons/hi';
+import {
+  MdThumbDownOffAlt,
+  MdSentimentNeutral,
+  MdOutlineSummarize,
+  MdPercent,
+} from 'react-icons/md';
 import { StaticList, DescrStatistics } from './Statistics.styled';
 import { Notification } from '../Notification/Notification';
 
@@ -21,31 +21,31 @@ export const Statistics = ({
     <StaticList>
       <li>
         <DescrStatistics>
-          {/* <HiOutlineHeart size="14" /> */}
+          <HiOutlineHeart size="14" />
           Good: <span>{good}</span>
         </DescrStatistics>
       </li>
       <li>
         <DescrStatistics>
-          {/* <MdSentimentNeutral size="14" /> */}
+          <MdSentimentNeutral size="14" />
           Neutral: <span>{neutral}</span>
         </DescrStatistics>
       </li>
       <li>
         <DescrStatistics>
-          {/* <MdThumbDownOffAlt size="14" /> */}
+          <MdThumbDownOffAlt size="14" />
           Bad: <span>{bad}</span>
         </DescrStatistics>
       </li>
       <li>
         <DescrStatistics>
-          {/* <MdOutlineSummarize size="14" /> */}
+          <MdOutlineSummarize size="14" />
           Total: <span>{total}</span>
         </DescrStatistics>
       </li>
       <li>
         <DescrStatistics>
-          {/* <MdPercent size="14" /> */}
+          <MdPercent size="14" />
           Positive feedback: <span>{positivePercentage}%</span>
         </DescrStatistics>
       </li>
