@@ -11,30 +11,16 @@ export const StyledButton = styled.button`
   padding-left: ${p => p.theme.space[4]}px;
   padding-right: ${p => p.theme.space[4]}px;
 
-  border: ${p => p.theme.borders.none};
+  border: 1px solid green;
   border-radius: ${p => p.theme.radii.normal};
 
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
-  transition: all 0.2s ease-in-out;
-
   background-color: ${p => p.theme.colors.primary};
-  color: ${p => p.theme.colors.white};
+  color: ${p => p.theme.colors.black};
   cursor: pointer;
 
   :hover,
   :focus {
     background-color: ${p => p.theme.colors.secondary};
     color: ${p => p.theme.colors.accent};
-    svg {
-      fill: ${p => p.theme.colors.accent};
-      stroke: ${p => p.theme.colors.accent};
-    }
-    :active {
-      color: ${p => p.theme.colors.accent};
-      svg {
-        fill: ${p => p.theme.colors.accent};
-        stroke: ${p => p.theme.colors.accent};
-      }
-    }
   }
 `;
