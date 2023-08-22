@@ -38,5 +38,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+"eslint-config-airbnb": "^19.0.4",
+"eslint-import-resolver-meteor": "^0.3.4",
+"eslint-plugin-graphql": "^0.4.0",
+"eslint-plugin-import": "^2.2.0",
+"eslint-plugin-jsx-a11y": "^6.6.0",
+"eslint-plugin-react": "^7.30.1"
+  },
+  "description": "This project was created with\r [Create React App](https://github.com/facebook/create-react-app). To get\r acquainted and configure additional features\r [refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
+
