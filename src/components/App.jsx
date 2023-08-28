@@ -40,7 +40,7 @@ export class App extends Component {
             positivePercentage={this.countPositiveFeedbackPercentage(
               this.state
             )}
-          ></Statistics>
+          />
         </Section>
         <GlobalStyle />
       </Layout>

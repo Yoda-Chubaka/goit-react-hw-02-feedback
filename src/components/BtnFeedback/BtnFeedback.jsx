@@ -17,4 +17,5 @@ export const BtnFeedback = ({
 BtnFeedback.propTypes = {
   type: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
