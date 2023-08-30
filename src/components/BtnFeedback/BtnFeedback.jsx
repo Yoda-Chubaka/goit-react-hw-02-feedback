@@ -4,18 +4,20 @@ import PropTypes from 'prop-types';
 
 export const BtnFeedback = ({
   type = 'button',
-  children,
+  value,
   onClick,
 }) => {
   return (
-    <StyledButton type={type} onClick={onClick}>
-      {children}
+    <StyledButton
+      type={type}
+      onClick={onClick}>      
+      {value}
     </StyledButton>
   );
 };
 
 BtnFeedback.propTypes = {
   type: PropTypes.string.isRequired,
-  children: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired,
 };
